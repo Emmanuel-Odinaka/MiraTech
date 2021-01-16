@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:#ede7f6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:  0 auto;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 1rem;
+}
+.logo > img {
+    width: 2.2rem;
+    height: auto;
+    margin-right: .3rem;
+}
+.header {
+    margin: 0 0 0 0;
+    padding: .8rem;
+    display: flex;
+    justify-content: space-between;
+    background-color:#1a237e;
+    color: rgb(243, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    
+}
+.register {
+    margin: 0 1rem 0 0;
+    display: flex;
+    align-items: center;
+}
+.group {
+    position: relative;
+    top: 4rem;
+}
+.center-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.center-icon > img {
+    width: 4rem;
+    height: auto;
+}
+.center {
+    margin-bottom: 1.2rem;
+}
+.login {
+    text-align: center;
+    line-height: 1.7;
+}
+.login-text {
+    font-size: 1.6rem;
+}
+.login-text-2 {
+    font-size: .9rem;
+}
+.card {
+    margin: 4rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    margin: auto;
+    height: 10rem;
+    padding: 8rem;
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 1px 2px rgb(225, 218, 218);
+}
+input {
+    margin: 1.3rem 0 1.3rem 0;
+    border: none;
+    border-bottom: 1px solid rgb(160, 152, 152);
+    outline: none;
+}
+button {
+    background-color:#1a237e;
+    color: rgb(242, 238, 238);
+    width: 7rem;
+    padding: .7rem;
+    border: none;
+    border-radius: .2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    outline: none;
+}
+button:hover {
+    background-color: #3a45b8;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-size: 14px;
+}
+.forgot {
+    margin-top: 1rem;
+    text-align: center;
+    color:#1a237e;
+}
